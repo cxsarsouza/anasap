@@ -89,7 +89,13 @@
 	}
 }
 @media all and (max-width:800px) {
+	.suptitle{
+		text-align: center;
+	}
 
+	.texto-central{
+		padding: 7px;
+	}
 	.wrapper-edge {
 		position: static;
 		-webkit-transform: translate(0%, 0%);
@@ -215,13 +221,16 @@
 		font-size: 23px;
 	}
 	.h1-central {
-		font-size: 36px;
+		font-size: 32px;
 	}
 	.about-content{
 		bottom: 60px;
 	}
 	.about-img{
 		top: 40px;
+	}
+	.img-services{
+		width: 275px;
 	}
 
 }

@@ -350,12 +350,12 @@ h2 {
 	padding-top: 10px;
 }
 
-.menu li {
+.menu a {
 	float: left;
 	margin-right: 30px;
 }
 
-.menu li a {
+.menu a {
 	font-family: 'Poppins', sans-serif;
 	font-weight: 600;
 	color: var(--color-white);
@@ -367,7 +367,7 @@ h2 {
 	transition-duration: 0.5s;
 }
 
-.menu li a:after {
+.menu a:after {
 	content: "";
 	display: block;
 	width: 0%;
@@ -382,7 +382,7 @@ h2 {
 	transition-duration: 0.5s;
 }
 
-.menu li a:hover::after {
+.menu a:hover::after {
 	width: 100%;
 }
 
